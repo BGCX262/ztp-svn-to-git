@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://ztp.googlecode.com/svn/branches/ZTP-Najnowsze/" href="launch.jnlp">
+    <information>
+        <title>ZTP!</title>
+        <vendor>suchezi</vendor>
+        <description>program ztp</description>
+        <description kind="short">ZTP!</description>
+        <homepage href="http://code.google.com/p/ztp/"/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.5+"/>
+        <jar href="ZTPv.jar" main="true" download="eager"/>
+        <jar href="lib/appframework-1.0.3.jar" download="eager"/>
+        <jar href="lib/swing-layout-1.0.3.jar" download="eager"/>
+        <jar href="lib/swing-worker-1.1.jar" download="eager"/>
+    </resources>
+    <application-desc main-class="ztpviewer.ZTPViewerApp">
+    </application-desc>
+</jnlp>
